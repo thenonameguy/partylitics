@@ -1,7 +1,5 @@
 (ns partylitics.core
-  (:gen-class))
+  (:require [net.cgrand.enlive-html :as html]
+            [clj-http.client :as http]))
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+(defn scrape [])

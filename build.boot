@@ -4,7 +4,10 @@
 (set-env! :resource-paths #{"resources" "src"}
           :source-paths   #{"test"}
           :dependencies   '[[org.clojure/clojure "1.9.0"]
-                            [adzerk/boot-test "RELEASE" :scope "test"]])
+                            [adzerk/boot-test "RELEASE" :scope "test"]
+                            [enlive "1.1.6"]
+                            [clj-http "3.8.0"]
+                            [traversy "0.5.0"]])
 
 (task-options!
  aot {:namespace   #{'partylitics.core}}

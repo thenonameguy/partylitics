@@ -2,6 +2,5 @@
   (:require [clojure.test :refer :all]
             [partylitics.core :as sut]))
 
-(deftest a-test
-  (testing "TODO"
-    (is (= 1 1))))
+(deftest scrape
+  (is (nil? (sut/scrape))))
